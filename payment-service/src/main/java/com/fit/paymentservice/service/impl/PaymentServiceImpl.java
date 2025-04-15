@@ -1,19 +1,20 @@
-package com.fit.payment_service.service.impl;
+package com.fit.paymentservice.service.impl;
+
+import com.fit.paymentservice.common.exception.ResourceNotFoundException;
+import com.fit.paymentservice.dto.PaymentDto;
+import com.fit.paymentservice.entity.Payment;
+import com.fit.paymentservice.entity.PaymentStatus;
+import com.fit.paymentservice.mapper.PaymentMapper;
+import com.fit.paymentservice.repository.PaymentRepository;
+import com.fit.paymentservice.service.PaymentService;
+import lombok.AccessLevel;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.FieldDefaults;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import org.springframework.stereotype.Service;
-
-import com.fit.payment_service.common.exception.ResourceNotFoundException;
-import com.fit.payment_service.dto.PaymentDto;
-import com.fit.payment_service.entity.Payment;
-import com.fit.payment_service.entity.PaymentStatus;
-
-import lombok.AccessLevel;
-import lombok.RequiredArgsConstructor;
-import lombok.experimental.FieldDefaults;
 
 @Service
 @RequiredArgsConstructor

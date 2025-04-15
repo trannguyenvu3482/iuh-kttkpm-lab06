@@ -1,4 +1,4 @@
-package com.fit.payment_service.common.exception;
+package com.fit.paymentservice.common.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

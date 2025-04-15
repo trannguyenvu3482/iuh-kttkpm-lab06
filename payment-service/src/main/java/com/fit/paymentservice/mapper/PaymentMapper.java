@@ -1,9 +1,8 @@
-package com.fit.payment_service.mapper;
+package com.fit.paymentservice.mapper;
 
+import com.fit.paymentservice.dto.PaymentDto;
+import com.fit.paymentservice.entity.Payment;
 import org.springframework.stereotype.Component;
-
-import com.fit.payment_service.dto.PaymentDto;
-import com.fit.payment_service.entity.Payment;
 
 @Component
 public class PaymentMapper {

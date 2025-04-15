@@ -1,4 +1,4 @@
-package com.fit.payment_service.entity;
+package com.fit.paymentservice.entity;
 
 public enum PaymentStatus {
     PENDING,

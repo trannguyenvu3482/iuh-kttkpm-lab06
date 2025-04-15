@@ -5,89 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="002e2323-0f41-44b4-9b37-7e9398781781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/fit/customerservice/CustomerServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/fit/customerservice/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/test/java/com/fit/customerservice/CustomerServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iuh-kttkpm-lab06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/client/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/common/annotation/ApiMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/common/util/FormatRestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/request/OrderDetailRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/request/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/response/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/response/CategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/response/OrderDetailResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/response/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/response/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/dto/response/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/fit/orderservice/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/fit/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/common/annotation/ApiMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/common/util/FormatRestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/dto/request/RequestAddCategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/dto/request/RequestAddProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/dto/response/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/fit/productservice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/fit/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/fit/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/fit/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/fit/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/fit/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/src/main/java/com/fit/shippingservice/ShippingServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shipping-service/src/test/java/com/fit/shippingservice/ShippingServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/common/exception/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/common/exception/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/common/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/common/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/dto/PaymentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/dto/PaymentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/entity/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/entity/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/entity/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/mapper/PaymentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/mapper/PaymentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/payment_service/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/fit/paymentservice/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/test/groovy/com/fit/payment_service/PaymentServiceApplicationTests.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/test/groovy/com/fit/paymentservice/PaymentServiceApplicationTests.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +65,22 @@
     <projectState path="$PROJECT_DIR$/customer-service">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/inventory-service">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/order-service">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/payment-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/payment-service/api-gateway">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/product-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/shipping-service">
       <ProjectState />
     </projectState>
   </component>
@@ -181,11 +160,11 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/trann/Documents/CODE/Backend/iuh-kttkpm-lab06/product-service/src/main/java/com/fit/productservice&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/trann/Documents/CODE/Backend/iuh-kttkpm-lab06/customer-service/src/main/java/com/fit/customerservice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trann/Documents/CODE/Backend/iuh-kttkpm-lab06/payment-service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
@@ -201,6 +180,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\trann\Documents\CODE\Backend\iuh-kttkpm-lab06\customer-service\src\main\java\com\fit\customerservice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\trann\Documents\CODE\Backend\iuh-kttkpm-lab06" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,6 +203,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inventory-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fit.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fit.orderservice.OrderServiceApplication" />
@@ -231,6 +220,13 @@
     <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="product-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fit.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shipping-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fit.shippingservice.ShippingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,6 +276,8 @@
       <workItem from="1744101478857" duration="5623000" />
       <workItem from="1744706511786" duration="1945000" />
       <workItem from="1744710914174" duration="4000" />
+      <workItem from="1744711472657" duration="795000" />
+      <workItem from="1744712311907" duration="107000" />
     </task>
     <servers />
   </component>

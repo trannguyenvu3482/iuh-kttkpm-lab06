@@ -1,13 +1,12 @@
-package com.fit.payment_service.dto;
+package com.fit.paymentservice.dto;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
-
-import com.fit.payment_service.entity.PaymentStatus;
-
+import com.fit.paymentservice.entity.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor

@@ -1,8 +1,8 @@
-package com.fit.payment_service.service;
+package com.fit.paymentservice.service;
+
+import com.fit.paymentservice.dto.PaymentDto;
 
 import java.util.List;
-
-import com.fit.payment_service.dto.PaymentDto;
 
 public interface PaymentService {
     List<PaymentDto> getAllPayments();

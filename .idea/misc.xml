@@ -3,8 +3,11 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/customer-service" />
+    <file type="web" url="file://$PROJECT_DIR$/inventory-service" />
     <file type="web" url="file://$PROJECT_DIR$/order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/payment-service" />
     <file type="web" url="file://$PROJECT_DIR$/product-service" />
+    <file type="web" url="file://$PROJECT_DIR$/shipping-service" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

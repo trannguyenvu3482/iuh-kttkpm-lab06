@@ -1,11 +1,10 @@
-package com.fit.payment_service.repository;
+package com.fit.paymentservice.repository;
 
-import java.util.List;
-
+import com.fit.paymentservice.entity.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.fit.payment_service.entity.Payment;
+import java.util.List;
 
 @Repository
 public interface PaymentRepository extends JpaRepository<Payment, Long> {

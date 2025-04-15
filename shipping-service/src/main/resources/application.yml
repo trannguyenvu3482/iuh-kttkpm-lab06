@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: shipping-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shipping_service
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver

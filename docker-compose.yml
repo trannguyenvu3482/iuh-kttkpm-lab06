@@ -1,0 +1,25 @@
+version: "3.8"
+name: "lab06"
+services:
+  postgres:
+    image: "postgres:17.2-alpine"
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456Aa
+      POSTGRES_DB: products
+    command: ["postgres"]
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - lab06-network
+
+volumes:
+    postgres_data:
+        driver: local
+
+networks:
+  lab06-network:
+    driver: bridge
